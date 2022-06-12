@@ -1,0 +1,117 @@
+:root {
+    --background-color: #E5E5E5;
+    --second-background-color: #F5F5F5;
+    --text-color: #000000;
+    --second-text-color: #8F95A5;
+    --button-color: #263238;
+}
+body {
+    background-color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.5;
+        letter-spacing: 0.03em
+        var(--second-text-color)
+}
+ul {list-style: none;}
+/* Header */
+.header {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.logo {text-decoration: none;
+color: var(--text-color); }
+.header-span {
+    color: #939393;
+}
+.navigation {
+    font-weight: 500;
+    color: #263238;
+    text-decoration: none;
+    }
+    .header-button {
+        background-color: #ffffff;
+        font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 1.5;
+            letter-spacing: 0.03em
+    }
+/* Hero */
+.hero-title {
+    font-weight: 600;
+        font-size: 64px;
+        line-height: 1.25;
+        color: var(--text-color);
+}
+.hero-button {
+    background-color: var(--button-color);
+    color: #ffffff;
+}
+/* Skills */
+.titles {
+    font-weight: 600;
+    color: var(--text-color);
+}
+.skills-background {
+    background-color: var(--background-color);
+}
+.skills-subtitle {
+    font-weight: 600;
+    color: #263238;
+}
+.skills-button {
+    background-color: var(--button-color);
+    color: #ffffff;
+}
+/* About us */
+.about-us-subtitle {
+    font-weight: 600;
+        color: var(--text-color)
+}
+/* Pricing */
+.pricing-subtitle {
+    font-weight: 600;
+        font-size: 30px;
+        line-height: 1.6;
+        color: var(--button-color);
+}
+.pricing-button {
+    background-color: #EEEEEE;
+    color: var(--button-color);
+}
+.pricing-button-font {
+    color: #546269;
+    }
+/* Contact Us */
+.contact-button {
+    background-color: var(--button-color);
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+/* Footer */
+.footer {
+        text-decoration: none;
+}
+.footer-logo {
+    color: #000000;
+    font-size: 36px;
+    text-decoration: none;
+}
+.footer-logo-second {
+    color: #939393;
+}
+.footer-nav {
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+}
